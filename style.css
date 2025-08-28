@@ -1,0 +1,89 @@
+/* 
+a) Comentarios en el archivo de hojas de estilo
+Archivo: style.css
+Descripción: Hoja de estilos para página de  principales lenguajes de programación
+Autor: Jesus David ILes Peña
+Fecha: 27 de agosto del 2025
+Obs: Construcción mediante HTML + CSS. Uso de CSS externo.
+*/
+
+/* d) Caso fortuito: Selector por agrupación con selectores por ID*/
+#len1, #len2, #len3 #top {
+    font-size: 12px;
+    border-radius: 13px;
+}
+/* d) Selector por agrupación: color de texto*/
+h1, h2, p{
+    color: #420080; /* e) Uso de la propiedad color. dark violet*/
+}
+/* b) Un selector por ID. g) DIV horizontal ( para sección lenguajes: Go, TYPESCRIPT)*/
+#len1 {
+    background-color: #c6577c;/* f) Colores HTML hexadecimal: panama rose*/
+    text-align: right; /* e) Propiedad text-align */
+    padding: 20px 15px 30px 15px;/* e) Propiedad padding. top|right|botton|left */
+    border: 2px solid #8B008B;/* e) Propiedad border. f) Colores HTML hexadecimal: dark magenta*/
+}
+/* b) Otro selector por ID. g) DIV horizontal ( para sección lenguajes: JAVA, Swift)*/
+#len2 {
+    background-color: #d0eaa3; /* f) Colores HTML hexadecimal: verde lima */
+    text-align: center; /* e) Propiedad text-align */
+    padding: 20px 10px 25px;/* e) Propiedad padding. top|left y right| botton */
+    border: 2px solid #006400;/* e) Propiedad border. f) Colores HTML hexadecimal: dark green*/
+}
+/* b) Otro selector por ID. g) DIV horizontal ( para sección lenguajes: C++, JAVA SCRIPT) */
+#len3 {
+    background-color: #b8c7cc;/* f) Colores HTML hexadecimal: grayish blue */
+    padding: 20px 20px 30px 15px;/* e) Propiedad padding. top|right|botton|left */
+    border: 2px solid #08b0b0;/* e) Propiedad border. f) Colores HTML hexadecimal: dark cyan*/
+   
+}
+/* Clase .grid-container para uso de DIV horizontales (hijos lenguajes) */
+.grid-container {
+    display: grid;/*e) Uso de la propiedad display*/
+    grid-template-columns: 33% 33% 33%; /* e) Uso de la propiedad grid-template-columns, */
+    gap: 10px;/* e) Uso de la propiedad gap */
+    
+}
+/* b) y otro selector por ID */
+#top  {
+    display: grid; /*e) Uso de la propiedad display*/
+    display: flex; /* Usado para dar alineacion de encabezado  en fila*/
+    background-color:#FFFFFF;/*f) Colores HTML hexadecimal: white */
+    font-family: calibri; /* e) Uso de la propiedad font-family*/
+    padding-left: 245px; /* e) Uso de la propiedad padding*/
+    padding-top: 20px; /* e) Uso de la propiedad padding*/
+ 
+
+}
+/* c) Un selector por clase */
+.flutter img {
+    background-color:#FFFFFF; /* f) Colores HTML hexadecimal: white */
+    width:70px; /* anchura de la imagen*/
+    height: auto;/* altura de la imagen */
+    padding-top: 20px; /* e) Uso de la propiedad padding*/
+    position: relative;/* no afecta la posicíon de otros elementos */
+    left: -147px; /* Desplaza la imagen a la izquierda */
+    
+}
+/* c) Otro selector por clase */
+.encabezado {
+    margin-top: 0;
+    background-color: #ffe4e1; /* f) Colores HTML hexadecimal: mistyrose */
+    font-family: calibri; /* e) Uso de la propiedad font-family*/
+    font-size: 12px;/* e) Uso de la propiedad font-size*/
+    text-align: center;/* e) Uso de la propiedad text-align*/
+    border-radius: 10px; /* e) Uso de la propiedad border-radius*/
+    padding-top: 40px; /* e) Uso de la propiedad padding-top*/
+    border: 2px solid #e0c8c4; /* e) Uso de la propiedad border*/
+}
+/* c) Y otro selector por clase */
+.parrafo {
+    background-color: #ffe4e1; /* f) Colores HTML hexadecimal: mistyrose */
+    font-family: calibri; /* e) Uso de la propiedad font-family*/
+    font-size: 12px;/* e) Uso de la propiedad font-size*/
+    text-align: left;/* e) Uso de la propiedad text-align*/
+    border-radius: 10px; /* e) Uso de la propiedad padding-left*/
+    padding-left: 60px; /* e) Uso de la propiedad padding-left*/
+    padding-bottom: 2px; /* e) Uso de la propiedad padding-bottom*/
+}
+
