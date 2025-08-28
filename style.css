@@ -8,7 +8,7 @@ Obs: Construcción mediante HTML + CSS. Uso de CSS externo.
 */
 
 /* d) Caso fortuito: Selector por agrupación con selectores por ID*/
-#len1, #len2, #len3 #top {
+#len1, #len2, #len3, #top {
     font-size: 12px;
     border-radius: 13px;
 }
@@ -60,8 +60,8 @@ h1, h2, p{
     background-color:#FFFFFF; /* f) Colores HTML hexadecimal: white */
     width:70px; /* anchura de la imagen*/
     height: auto;/* altura de la imagen */
-    padding-top: 20px; /* e) Uso de la propiedad padding*/
     position: relative;/* no afecta la posicíon de otros elementos */
+    top: 11px;/*Desplaza imagen hacia abajo*/
     left: -147px; /* Desplaza la imagen a la izquierda */
     
 }
